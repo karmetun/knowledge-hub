@@ -43,8 +43,10 @@ docker-compose up --build
 # Frontend: http://localhost:3000
 # Backend:  http://localhost:5000/health
 # Postgres: localhost:5432 (user: app, pass: app, db: appdb)
+```
 
 ### Local dev (optional)
+
 - `apps/backend`: `npm run dev` (nodemon)
 - `apps/frontend`: `npm run dev` (Vite)
 
@@ -105,7 +107,11 @@ knowledge-hub/
 ## Contributing
 
 Use trunk-based development with short-lived branches and Conventional Commits:
+
 - `feat(auth): add JWT login`
 - `fix(notes): return 403 for non-owner update`
 - `chore(ci): add backend test workflow`
+
+```
+
 ```
